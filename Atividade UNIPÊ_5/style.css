@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apresentação h1{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 60px;
+}
+.apresentação h2{
+    margin-top: 20px;
+    font-size: 25px;   
+}
+.apresentação p{
+    margin-top: 15px;
+}
+
+.topo{
+    background-image: linear-gradient(to bottom, #05dba6, #05dba6, #ffff);
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+.navegacao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navegacao nav ul{
+    background-color: #05dba6;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+    padding: 10px;  
+}
+.navegacao nav ul li a{ 
+    color: white;
+    text-decoration: none; 
+}
+.navegacao nav a:hover{
+    color: #0004ff;
+    text-decoration: underline; 
+}
+
+.tabelas{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.tags{
+    color: rgb(255, 255, 255); 
+    width: 50%; 
+    background-image: linear-gradient(to bottom, #00fa85, #00fa85, #02fcc6);
+    display: flex;
+    
+}
+.protocolos{
+    width: 50%; 
+    color: rgb(255, 255, 255); 
+    background-image: linear-gradient(to bottom, #00fa85, #00fa85, #02fcc6);
+    
+}
+.table{
+    color: #ffffff;
+    border: 3px;
+    width: 100%;          
+}
+td{
+    border: 1px solid rgb(0, 247, 193);
+}
+th{
+    border: 1px solid rgb(0, 247, 193);
+}
+.grupo1{
+    border-radius: 10px;
+    display:flex;
+    height: 230px;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #00fa85, #02fcc6, #02fcc6);
+}
+.g1{
+    
+    width: 33.33%;
+    color:#000000;
+    padding: 20px;
+    
+}
+.g2{
+    
+    width: 33.33%;
+    color: #000000;
+    padding: 20px;
+    
+}
+.g3{
+  
+    width: 33.33%;
+    color:#000000;
+    padding: 20px;
+    
+}
+.footer{
+    display:flex;
+    height: 150px;
+    margin-top: 10px;
+    
+    
+}
+.sobre {
+    background-color: rgb(141, 141, 141);
+    width: 33.33%;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.opcao {
+    background-color: rgb(214, 213, 212);
+    width: 33.33%;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.categorias {
+    background-color: rgb(141, 141, 141);
+    width: 33.33%;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contatos {
+    background-color: rgb(214, 213, 212);
+    width: 33.33%;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario{
+    padding-left: 90px;
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+}
+.formulario h4 {
+    margin-bottom: 20px;
+}
+.formulario input{
+    outline: 0;
+}
+.formulario textarea{
+    width: 380px;
+    height: 40px;
+    resize: none;
+    outline: 0;
+    border: 1;
+}
+.mens{
+    margin-top: 20px;
+}
+.nome{
+    width: 380px;
+    height: 25px;
+    margin-top: 10px;
+}
+.email{
+    width: 380px;
+    height: 25px;
+    margin-top: 10px;
+}
+.assunto{
+    width: 385px;
+    height: 25px;
+    margin-top: 10px;
+}
+.obrigado{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.direitos p{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
